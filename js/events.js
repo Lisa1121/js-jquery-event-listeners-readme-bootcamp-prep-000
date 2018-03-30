@@ -11,9 +11,7 @@ function getIt() {
   })
 }
 function frameIt () {
-  $('img').on('load').addClass {
-    
-  })
+  $('img').on('load').addClass ('tasty')
 }
 function submitIt() {
   $("form").on("submit", function () {
