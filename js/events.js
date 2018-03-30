@@ -11,7 +11,9 @@ function getIt() {
   })
 }
 function frameIt () {
-  
+  $('img').on('load', function () {
+    
+  })
 }
 function submitIt() {
   $("form").on("submit", function () {
