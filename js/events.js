@@ -13,6 +13,7 @@ function getIt() {
 function frameIt () {
   $('img').on('load').addClass ('tasty')
 }
+//Define a function submitIt that does not accept a parameter. The function should bind a submit event to the form that alerts "Your form is going to be submitted now."
 function submitIt() {
   $("form").on("submit", function () {
     if ($( "input:first").val() === "correct") {
